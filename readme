@@ -1,14 +1,14 @@
 
-## Secure Distributed File System 
+# Secure Distributed File System 
 
-## Necessary Stuff to know 
+# Necessary Stuff to know 
 
 - I used Eclipse to develop this project in JAVA, and we have listed the Libraries used int the section below.
 - Make sure your JAVA is installed on your pc (The latest version if possible)
 - To Run You need at least one instance of the console running each:- Replica, Client, Master.
 - The overall flow to execute would be run the Replica servers, then the master and the client, and all the commands will be sent from a client.
 
-## Libraries Used
+# Libraries Used
 - [Package java.rmi](https://docs.oracle.com/javase/8/docs/api/java/rmi/package-summary.html)
 - [Package javax.crypto](https://docs.oracle.com/javase/8/docs/api/javax/crypto/package-summary.html)
 - [Package javax.xml](https://docs.oracle.com/javase/8/docs/api/index.html)
@@ -16,7 +16,7 @@
 
 
 
-##  Step-by-Step instructions:-
+#  Step-by-Step instructions:-
 - First Install Eclipse in the machines where you will be running the code (i.e Server, Client, Master.)
 - Then Open Eclipse and Click File -> Open Projects from File System and import the Project Folder.
 - Now once the project is open go to *src/demo*, till here it is common for all the machines.
